@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>js introduction</title>
+    </head>
+<body>
+
+    <div class="container"onmouseenter="changeOnMove()">
+
+ <button onclick="doSomething()">change color</button>
+    <h1 id ="one">welcome</h1>
+    <h1>hello</h1>
+    <h1 id="THOR">THOR</h1>
+    <script>
+function doSomething()
+{
+    document.querySelector(".container").style.backgroundColor="green";
+}
+
+</script>    
+
+</body>
+</html>
